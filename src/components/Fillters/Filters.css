@@ -1,0 +1,34 @@
+.filters-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.filters {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.filters-years {
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filters-price {
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filters-city{
+    margin: 8px;
+}
+
+.filters-search{
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}

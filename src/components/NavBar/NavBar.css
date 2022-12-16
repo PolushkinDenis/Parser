@@ -1,0 +1,8 @@
+.navBar {
+    height: 60px;
+    background-color: rgb(93, 93, 93);
+}
+
+.navLink{
+    text-decoration: none;
+}
