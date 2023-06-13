@@ -1,70 +1,16 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Парсер автомобильных объявлений</h1>
+<p>Парсинг объявлений с авито, автору и дрома</p>
+<p>Зарегистрированный пользователь может производить поиск автомобилей по заданным параметрам.</p>
+<img src="https://github.com/PolushkinDenis/ParserClient/blob/master/readme/%D0%AD%D0%A4%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%83%D1%81%D1%82%D0%B0%D1%8F.jpg"/>
+<p>На главной странице имеется список доступных к выбору фильтров, а также возможность перейти на другие формы.
+После нажатия кнопки «Поиск» сервер производит поиск объявлений после чего данные отображаются на форме. На рисунке 19 представлена форма с данными поиска.</p>
+<img src="https://github.com/PolushkinDenis/ParserClient/blob/master/readme/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA.jpg" />
+<p>Пользователь может добавить автомобиль в избранное, нажав на кнопку в виде сердечка. После чего автомобиль будет сохранен в бд и его можно посмотреть в личном кабинете.
+Для поиска статистки нужно нажать кнопку «Статистика». После сбора сервером данных они отображаются на главной форме. Статистика представлена в виде трех графиков для каждого выбранного сайта для поиска «Цена по годам», «Пробег по годам» и «Цена к пробегу» с указанием</p>
+<img src="https://github.com/PolushkinDenis/ParserClient/blob/master/readme/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0.jpg"/>
+<p>В личном кабинете хранятся избранные авто, сохраненная статистика и предыдущие результаты поиска. Пользователь может перейти на сервис, с которого был получен конкретный автомобиль, нажав на кнопку «Посмотреть объявление» или удалить авто, нажав на кнопку в виде корзины.</p>
+<img src="https://github.com/PolushkinDenis/ParserClient/blob/master/readme/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%201.jpg"/>
+<img src="https://github.com/PolushkinDenis/ParserClient/blob/master/readme/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%202.jpg"/>
+<p>Сохраненную статистику можно более подробно рассмотреть, выбрав ее из списка и нажав на кнопку «Подробнее», после чего откроется форма со статистикой. Для сравнения двух статистик нужно выбрать две записи и нажать на кнопку «Подробнее». После этого откроется форма сравнения статистик.</p>
+<img src="https://github.com/PolushkinDenis/ParserClient/blob/master/readme/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8.jpg"/>
+<p>Пользователь может провести поиск статистики сразу по двум городам для проведения сравнения объявлений. Для этого нужно перейти на форму «Сравнения цен». Для сравнения цен нужно задать необходимые фильтры, после чего нажать на кнопку «Статистика». Полученные данные после парсинга будут отображены на форме</p>
